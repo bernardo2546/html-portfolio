@@ -1,0 +1,58 @@
+#section1{
+    background-color:  #112D4E;
+}
+
+#section2{
+/* placeholders */
+}
+
+#section3{
+/* placeholders */
+}
+
+#section4{
+/* placeholders */
+}
+
+#section5{
+/* placeholders */
+}
+
+.skill-item {
+    margin-bottom: 15px;
+}
+.star {
+    color: gold;
+}
+
+.nav-link{
+    color: #F9F7F7;
+
+}
+
+.nav-link.active{
+    background-color:#3F72AF !important;
+}
+
+/* gradient background off for now */
+#sectionxxx {
+	background: linear-gradient(-45deg, #3F72AF, #112D4E);
+	animation: gradient 1s ease infinite;
+}
+.flag-luxembourg {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #EF3340 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #00A3E0 66.66%);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
